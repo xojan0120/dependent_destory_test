@@ -19,7 +19,7 @@ end
 ```ruby
 class UserRoom < ApplicationRecord
   belongs_to :user  # => 対象外
-  belongs_to :roome # => 対象外
+  belongs_to :room  # => 対象外
 end
 ```
 
